@@ -1,0 +1,41 @@
+$checkboxColor: #9C27B0;
+
+[data-ui-css-component=checkbox]{
+	margin: 10px 0;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #212121;
+	text-align: center;
+	
+	input[type=checkbox]{
+		display: none;
+	}
+	
+	span{
+		position: relative;
+		padding-left: 22px;
+		display: inline-block;
+		margin: 10px 15px;
+		cursor: pointer;
+		
+		&::before{
+			transition: 0.5s;
+			content: "";
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 14px;
+			border: 2px solid #888;
+			background-size: 10px 9px;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	}
+	
+	[type=checkbox]:checked + span::before{
+		background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAu0lEQVQ4T6WTURHCMBBEdxWABCRUAkjAAShBCpWCBOoACXGwzGWazpEmIYV833vZ3F2IPw9/4SUNJJ/GbhZIugC4AxhJXjcJHJyCj92CAmySqUtQgwEco2AuuAE4p+akjE2YDMwKAoBTknyD4xQkGbRz44wSAMPcbT/pKcYmrSYeE1jhoyDZZzuygpc9qEiaNy8JXLNKSeKo8tje/DHGQpImXFxlJ3m1bl49wceSdAAQfLdrn65rE1s/9g2UFVqH6GtSAwAAAABJRU5ErkJggg==");
+		background-color: $checkboxColor;
+		border-color: $checkboxColor;
+	}
+}
