@@ -5,11 +5,17 @@ It's a set of UI components written entirely in CSS (Sass) and HTML (Jade).
 Yes, you can. But I do not recommend, as it's meant only for study purpose and it can have browser support issues.
 
 ## Demo
-#### UI CSS tooltip
+#### UI CSS Tooltip
 http://codepen.io/AndersonMamede/pen/YyZMrx
 
-#### UI CSS checkbox
+#### UI CSS Checkbox
 http://codepen.io/AndersonMamede/pen/EVWJwP
 
-#### UI CSS radio
+#### UI CSS Radio
 http://codepen.io/AndersonMamede/pen/wKJZzX
+
+#### UI CSS Treeview
+http://codepen.io/AndersonMamede/pen/ojWPmW
+
+#### UI CSS Floating Label
+http://codepen.io/AndersonMamede/pen/GpEEpb
