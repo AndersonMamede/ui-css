@@ -1,7 +1,7 @@
 # What is UI CSS?
 It's a set of UI components written entirely in CSS (Sass) and HTML (Jade).
 
-## Can I use it on my project?
+## Can I use it on my projects?
 Yes, you can. But I do not recommend, as it's meant only for study purpose and it can have browser support issues.
 
 ## Demo
