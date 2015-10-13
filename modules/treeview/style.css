@@ -1,0 +1,43 @@
+[data-dui-css-component="treeview"] {
+  margin: 20px;
+  font-family: Verdana;
+  font-size: 14px;
+  color: #9C27B0; }
+  [data-dui-css-component="treeview"] [type=checkbox] {
+    display: none; }
+  [data-dui-css-component="treeview"] ul {
+    padding: 0 0 0 40px;
+    display: none;
+    list-style: none; }
+    [data-dui-css-component="treeview"] ul:first-child {
+      padding-left: 0; }
+  [data-dui-css-component="treeview"] li {
+    padding: 0; }
+    [data-dui-css-component="treeview"] li span {
+      margin: 2px 0;
+      display: list-item;
+      list-style: square; }
+  [data-dui-css-component="treeview"] label {
+    display: inline-block;
+    transition: 0.2s;
+    padding-right: 10px;
+    margin: 5px 0;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer; }
+    [data-dui-css-component="treeview"] label::before {
+      display: inline-block;
+      margin-right: 5px;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      background: #9C27B0;
+      color: #FFF; }
+  [data-dui-css-component="treeview"] ul:first-child, [data-dui-css-component="treeview"] [type=checkbox]:checked ~ ul {
+    display: block; }
+  [data-dui-css-component="treeview"] [type=checkbox]:checked ~ label::before {
+    content: "-"; }
+  [data-dui-css-component="treeview"] [type=checkbox]:not(:checked) ~ label::before {
+    content: "+"; }
+
+/*# sourceMappingURL=style.css.map */
