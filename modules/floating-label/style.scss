@@ -1,0 +1,53 @@
+$color: #9C27B0;
+
+[data-ui-css-component="floating-label"]{
+	font: normal 14px Verdana;
+	text-align: center;
+	margin: 50px 0;
+	
+	div{
+		margin: 2em 0 0 0;
+	}
+	
+	label{
+		position: relative;
+		display: inline-block;
+		text-align: left;
+	}
+	
+	input{
+		padding: 0.7em;
+		width: 250px;
+		font: inherit;
+		outline: none;
+		border: 1px solid #BBBBBB;
+		border-radius: 3px;
+		&:focus{
+			border-color: $color;
+		}
+	}
+	
+	input + span::before{
+		opacity: 0;
+		visibility: invisible;
+		transition: 0.3s ease;
+		content: attr(data-label);
+		transform: translateY(-0.5em);
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		font-size: 0.8em;
+		color: $color;
+	}
+	
+	input:focus + span::before{
+		transform: translateY(-100%);
+		opacity: 1;
+		visibility: visible;
+	}
+}
