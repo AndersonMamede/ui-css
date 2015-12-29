@@ -6,13 +6,13 @@ Yes, you can. But I do not recommend, as it's meant only for study purpose and i
 
 ## Demo
 #### UI CSS Tooltip
-http://codepen.io/AndersonMamede/pen/YyZMrx
+http://codepen.io/AndersonMamede/pen/wKJZzX
 
 #### UI CSS Checkbox
 http://codepen.io/AndersonMamede/pen/EVWJwP
 
 #### UI CSS Radio
-http://codepen.io/AndersonMamede/pen/wKJZzX
+http://codepen.io/AndersonMamede/pen/YyZMrx
 
 #### UI CSS Treeview
 http://codepen.io/AndersonMamede/pen/ojWPmW
